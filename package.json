@@ -3,20 +3,17 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@craco/craco": "^5.8.0",
-    "@tailwindcss/postcss7-compat": "^2.0.1",
-    "autoprefixer": "^9",
     "axios": "^0.21.0",
-    "postcss": "^7",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "react-scripts": "^4.0.1",
+    "swr": "^0.3.9",
     "typescript": "^3.2.1"
   },
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test --env=jsdom",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
