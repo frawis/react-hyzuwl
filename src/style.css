@@ -104,3 +104,26 @@ button {
   margin: 2rem 1rem;
   cursor: pointer;
 }
+
+.Coin--wrapper {
+  max-width: 360px;
+  background: #efefef;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.Coin--header {
+  display: flex;
+  align-items: center;
+  justify-items: space-between;
+  width: 100%;
+}
+.Coin--image {
+  width: 50px;
+  display: block;
+  margin: auto;
+}
+.Coin--content {
+  width: 100%;
+}
