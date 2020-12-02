@@ -5,7 +5,11 @@ export const Game = ({ game }) => {
 
   return (
     <>
-      <div className="" />
+      <div className="">
+        <div className="">
+          {game.Team1.TeamName} - {game.Team2.TeamName}
+        </div>
+      </div>
     </>
   );
 };
