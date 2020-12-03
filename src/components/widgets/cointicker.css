@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans:wght@900&display=swap");
+
+.br_coin_widget__app h1,
+.br_coin_widget__app h2,
+.br_coin_widget__app h3,
+.br_coin_widget__app h4 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+
+.br_coin_widget__app {
+  border: 1px solid #cecece;
+  border-radius: 0.125rem;
+  margin-bottom: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.br_coin_widget__header {
+  display: flex;
+  align-items: center;
+}
+.br_coin_widget__header > div {
+  margin-right: 0.5rem;
+}
+.br_coin_widget__header > h3 {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+.br_coin_widget__inner {
+  padding: 0.5rem;
+}
+.br_coin_widget__powered_by {
+  background-color: yellow;
+  font-size: 0.625rem;
+  padding: 0.5rem 0.325rem;
+}
+.br_coin_widget__powered_by a {
+  color: black;
+}
+.br_coin_widget__price {
+  font-size: 1.125rem;
+}
+.br_coin_widget__price > span {
+  display: block;
+  font-size: 0.85rem;
+}
+.br_coin_widget__details {
+  font-size: 0.725rem;
+}
+.br_coin_widget__details th {
+  color: #444;
+}

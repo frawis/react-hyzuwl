@@ -7,14 +7,14 @@ import fetcher from "../fetcher";
 import CoinItem from "./CoinItem";
 
 const ListDefi = () => {
+  const [searchTerm, setSearchTerm] = useState("");
+  const [searchResults, setSearchResults] = useState([]);
   const { data, error, isValidating } = useSWR(
     "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&category=decentralized_finance_defi&order=market_cap_desc&per_page=25&page=1&sparkline=false&price_change_percentage=1h%2C%2024h%2C%207d",
     fetcher
   ); // /coins is the cache key
   //console.log("*** data: ", data);
   //console.log("*** isValidating: ", isValidating);
-  const [searchTerm, setSearchTerm] = useState("");
-  const [searchResults, setSearchResults] = useState([]);
 
   const handleChange = event => {
     setSearchTerm(event.target.value);
