@@ -18,6 +18,9 @@ export default function App() {
           <div>
             <Link to="/liga">Liga</Link>
           </div>
+          <div>
+            <Link to="/kurse">Kurse</Link>
+          </div>
         </nav>
         <Switch>
           <Route path="/" exact>

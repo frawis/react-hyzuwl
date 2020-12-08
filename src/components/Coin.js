@@ -15,7 +15,7 @@ export const Coin = ({ coin }) => {
 
   return (
     <>
-      <Accordion title={coin.name}>
+      <Accordion title={coin.name} image={coin.image}>
         <div className="Card bg-yellow-300">
           <span className="Card--id">{coin.symbol}</span>
           <img className="Card--image" src={coin.image} alt={coin.name} />
